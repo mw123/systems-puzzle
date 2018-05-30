@@ -3,7 +3,7 @@
 ## Table of Contents
 1. [Understanding the puzzle](README.md#understanding-the-puzzle)
 2. [Introduction](README.md#introduction)
-3. [Puzzle summary](README.md#puzzle-summary)
+3. [Puzzle details](README.md#puzzle-details)
 4. [Instructions to submit your solution](README.md#instructions-to-submit-your-solution)
 5. [FAQ](README.md#faq)
 
@@ -17,9 +17,20 @@ Imagine you're on an engineering team that is building an eCommerce site where u
 
 Unfortunately, the developer is new to many of these tools, and is having a number of issues. The developer needs your help debugging the system and getting it to properly work.
 
-# Puzzle summary
+# Puzzle details
 
 The codebase included in this repo is nearly functional, but has a few bugs that are preventing it from working properly. The goal of this puzzle is to find these bugs and fix them. To do this, you'll have to familiarize yourself with the various technologies (Docker, nginx, Flask, and Postgres) enough to figure out  You definitely don't have to be an expert on these, but you should know them well enough to understand what the problem is.
+
+Assuming you have the Docker Engine and Docker Compose already installed, the developer said that the steps for running the system is to open a terminal, `cd` into this repo, and then enter these two commands:
+
+  docker-compose up -d db
+  docker-compose run --rm flaskapp /bin/bash -c "cd /opt/services/flaskapp/src && python -c  'import database; database.init_db()'"
+
+This "bootstraps" the PostgreSQL database with the correct tables. After that you can run the whole system with:
+
+  docker-compose up -d
+
+At that point, the web application should be visible by going to `localhost:8080` in a web browser. 
 
 Once you've corrected the bugs and have the basic features working, commit the functional codebase to a new repo following the instructions below.
 
