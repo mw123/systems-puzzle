@@ -35,13 +35,13 @@ At that point, the web application should be visible by going to `localhost:8080
 Once you've corrected the bugs and have the basic features working, commit the functional codebase to a new repo following the instructions below.
 
 ## Instructions to submit your solution
-* To submit your entry please use the link you received in your systems puzzle invite email
-* You will only be able to submit through the link one time 
-* Do NOT attach a file - for security, we will not open solutions submitted via files
+* Don't schedule your interview until you've worked on the puzzle 
+* To submit your entry please use the link you received in your systems puzzle invitation
+* You will only be able to submit through the link one time
+* For security, we will not open solutions submitted via files
 * Use the submission box to enter the link to your GitHub repo or Bitbucket ONLY
 * Link to the specific repo for this project, not your general profile
-* Put any comments in the README inside your project repo, not in the submission box
-* We are unable to accept systems puzzles that are emailed to us 
+* Put any comments in the README inside your project repo
 
 # FAQ
 
