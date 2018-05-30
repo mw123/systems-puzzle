@@ -53,7 +53,7 @@ You should submit the URL for the top-level root of your repository. For example
 ### Do I need a private Github repo?
 No, you may use a public repo, there is no need to purchase a private repo. You may also submit a link to a Bitbucket repo if you prefer.
 
-### What sort of system should I use to run my program on (Windows, Linux, Mac)?
+### What sort of system should I use to run my program (Windows, Linux, Mac)?
 You should use Docker to run and test your solution, which should work on any operating system. If you're unfamiliar with Docker, we recommend attending one of our Online Tech Talks on Docker, which you should've received information about in your invitation. Alternatively, there are ample free resources available on docker.com.
 
 ### How will my solution be evaluated?
