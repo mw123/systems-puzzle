@@ -32,7 +32,7 @@ This "bootstraps" the PostgreSQL database with the correct tables. After that yo
 
 At that point, the web application should be visible by going to `localhost:8080` in a web browser. 
 
-Once you've corrected the bugs and have the basic features working, commit the functional codebase to a new repo following the instructions below.
+Once you've corrected the bugs and have the basic features working, commit the functional codebase to a new repo following the instructions below. As you debug the system, you should keep track of your thought process and what steps you took to solve the puzzle.
 
 ## Instructions to submit your solution
 * Don't schedule your interview until you've worked on the puzzle 
