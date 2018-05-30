@@ -23,12 +23,12 @@ The codebase included in this repo is nearly functional, but has a few bugs that
 
 Assuming you have the Docker Engine and Docker Compose already installed, the developer said that the steps for running the system is to open a terminal, `cd` into this repo, and then enter these two commands:
 
-  docker-compose up -d db
-  docker-compose run --rm flaskapp /bin/bash -c "cd /opt/services/flaskapp/src && python -c  'import database; database.init_db()'"
+    docker-compose up -d db
+    docker-compose run --rm flaskapp /bin/bash -c "cd /opt/services/flaskapp/src && python -c  'import database; database.init_db()'"
 
 This "bootstraps" the PostgreSQL database with the correct tables. After that you can run the whole system with:
 
-  docker-compose up -d
+    docker-compose up -d
 
 At that point, the web application should be visible by going to `localhost:8080` in a web browser. 
 
