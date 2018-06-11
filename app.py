@@ -26,7 +26,7 @@ def success():
     qry = db_session.query(Items)
     results = qry.all()
 
-    return str(results)
+    return ' '.join(result.print_as_string() for result in results)
   
 
 if __name__ == '__main__':
